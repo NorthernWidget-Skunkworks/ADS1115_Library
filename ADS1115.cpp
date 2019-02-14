@@ -1,17 +1,11 @@
-#ifndef ADS1115_h
-#define ADS1115_h
+#include "ADS1115.h"
 
-#if ARDUINO >= 100
- #include "Arduino.h"
-#else
- #include "WProgram.h"
-#endif
-
-class ADS1115
+String ADS1115::GetString(uint8_t channel)
 {
-  public:
+ 
+}
 
-  private:
-};
-
-#endif
+String ADS1115::GetHeader(uint8_t channel)
+{
+ 
+}
